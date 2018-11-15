@@ -128,22 +128,43 @@ body{
     padding: 76px 24px 80px 6px;
     color: white;
     margin: auto;
-    font-size: 26px;
-    animation-name: header-services;
-    animation-duration: 5s;
-    animation-iteration-count
+    font-size: 26px;    
 }
 .about-services{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .about-services .save-with-us{
-    width: 20%;
+    width: 40%;
+    margin-left: 20px;
     display: inline-block;
-    margin-right: 20px;
 }
 .about-services .save-with-us h4{
-    font-size: 10px;
+    font-size: 20px;
     color: #1E90FF;
+}
+.about-services .save-with-us p{
+    font-size: 14px;
+}
+.about-services .reasons-to-save{
+    width: 90%;
+    margin-left: 30px;
+    text-align: center;
+}
+.about-services .reasons-to-save h2{
+    margin-bottom: 5px;
+}
+.about-services .reasons-to-save #pickermart{
+    text-transform: uppercase;
+    color: #1E90FF;
+    animation-name: pickermart;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.intro-smart{
+    background-color: 
 }
 .section-3{
     width: 100%;
@@ -413,7 +434,6 @@ body{
 #main-footer section .fa-facebook{
     color: white;
     background-color: rgba(107, 107, 107, 0.3);
-    
 }
 #main-footer section .fa-twitter{
     color: white;
@@ -430,6 +450,11 @@ body{
 #main-footer section .fa-instagram{
     color: white;
     background-color: rgb(36, 36, 36);
+}
+@media only screen and (min-width: 600px){
+    .about-services .reasons-to-save{
+        width: 50%;
+    }
 }
 @media only screen and (min-width: 992px){
     .header-1{

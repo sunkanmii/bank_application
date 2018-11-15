@@ -9,16 +9,70 @@
 <body>
    <div class="main-container">
 		<div class="header-1">
-			<h2 id ="logo"><a href ="#"><span>My</span>pan</a></h2>
+			<h2 id ="logo"><a href ="index.html"><span id="my">My</span><span id="pan">pan</span></a></h2>
 			<ul>
 				<li><a href ="index.html" title="Home">Home</a></li>
-                <li><a href ="about.html" title="About Us">About Us</a></li>
-				<li><a href ="Contact-us.html" title="Contact Us">Contact Us</a></li>
+				<li><a href ="about.html" title="About Us">About Us</a></li>
+				<li><a href ="Contact-us.html" title="Contact Us" >Contact Us</a></li>
 				<li><a href ="Create-account.html" title="Create Account" class="active">Create Account</a></li>
 				<li><a href ="Login.html" title="Login">Login</a></li>
 				<li><a href ="Our-services.html" title="Our Services">Our Services</a></li>
 			</ul>
-        </div>
-    </div>	
+		</div>
+		<div class="create-account">
+			<h2>Mypan savings</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			Asperiores facilis ipsa dolor? Dolorem nesciunt, voluptas veniam
+			deleniti dolorum omnis repellendus.</p>
+		</div>
+		<div class="open-account">
+			<form action="" target="_blank" method="post">
+				<label>Name:</label>
+				<input type="text" name="firstname" placeholder="Write your first and last name here">
+				<br>
+
+				<label>Email:</label>
+				<input type="email" name="email" placeholder="e.g dexter@gmail.com">
+				<br>
+				<label>Gender:</label>
+				<input type="radio" name="gender" value="male" checked>Male
+				<br>
+				<input type="radio" name="gender" value="female">Female
+				<br>
+				<input type="radio" name="gender" value="other">other
+				<br>
+
+				<label>Birthday:</label>
+				<input type="date" name="bday" min="1920-01-01" max="2020-01-01">
+				<br>
+
+				<label>Phone number:</label>
+				<input type="number" name="phone_num">
+				<br>
+
+				<label>ID card/Passport photograph:</label>
+				<input type="file" name="personal-photo">
+				<br>
+
+				<label>BVN:</label>
+				<input type="number" name="bvn" min="11" max="11">
+				<br>
+
+				<input type="submit" value="Submit">
+			</form>	
+		</div>
+	</div>	
+	<div id="main-footer">
+		<footer>
+			<p>Copyright &copy; 2018 Mypan</p>
+		</footer>
+		<section>
+			<a href="#" class="fa fa-facebook"></a>
+			<a href="#" class="fa fa-twitter"></a>
+			<a href="#" class="fa fa-google"></a>
+			<a href="#" class="fa fa-linkedin"></a>
+			<a href="#" class="fa fa-instagram"></a>
+		</section>
+	</div>
 </body>
 </html>

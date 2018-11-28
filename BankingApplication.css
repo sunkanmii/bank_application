@@ -73,7 +73,7 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url("Images\skyline-1925943_1920.jpg");
+    background-image: url("skyline-1925943_1920.jpg");
     height: auto;
 }
 .mask-1{
@@ -93,7 +93,7 @@ body{
     margin-bottom: 40px;
     background-size: cover;
     background-position: center;
-    background-image: url("Images\adult-african-afro-1089555.jpg");
+    background-image: url("adult-african-afro-1089555.jpg");
     height: auto;
 }
 .about-image .mask-1 h4{
@@ -114,7 +114,7 @@ body{
     margin-bottom: 40px;
     background-size: cover;
     background-position: center;
-    background-image: url("Images\40633945680_a649595a94_o.jpg");
+    background-image: url("40633945680_a649595a94_o.jpg");
     height: auto;
 }
 .mask-2{
@@ -283,7 +283,7 @@ body{
     margin: 30px 0px;
     background-size: cover;
     background-position: center;
-    background-image: url("Images\34613678200_811646fa3f_o.jpg");
+    background-image: url("34613678200_811646fa3f_o.jpg");
 }
 .customer-satisfaction .mask-2{
     width: 100%;

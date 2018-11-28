@@ -73,7 +73,7 @@ body{
     width: 100%;
     background-size: cover;
     background-position: center;
-    background-image: url("skyline-1925943_1920.jpg");
+    background-image: url("Images\skyline-1925943_1920.jpg");
     height: auto;
 }
 .mask-1{
@@ -93,7 +93,7 @@ body{
     margin-bottom: 40px;
     background-size: cover;
     background-position: center;
-    background-image: url("adult-african-afro-1089555.jpg");
+    background-image: url("Images\adult-african-afro-1089555.jpg");
     height: auto;
 }
 .about-image .mask-1 h4{
@@ -114,7 +114,7 @@ body{
     margin-bottom: 40px;
     background-size: cover;
     background-position: center;
-    background-image: url("40633945680_a649595a94_o.jpg");
+    background-image: url("Images\40633945680_a649595a94_o.jpg");
     height: auto;
 }
 .mask-2{
@@ -258,14 +258,15 @@ body{
 }
 .section-1 .pager p{
     padding: 19px 20px;
-    margin: 0;
+    height: 200px;
+    margin: 0px;
 }
 .section-1 .pager a{
     padding: 15px 10px;
     margin-top: 35px;
     display: inline-block;
     position: relative;
-    top: 45px;
+    top: 65px;
     color: white;
     border-radius: 4px;
     text-decoration: none;
@@ -282,7 +283,7 @@ body{
     margin: 30px 0px;
     background-size: cover;
     background-position: center;
-    background-image: url("34613678200_811646fa3f_o.jpg");
+    background-image: url("Images\34613678200_811646fa3f_o.jpg");
 }
 .customer-satisfaction .mask-2{
     width: 100%;
@@ -442,7 +443,7 @@ body{
 }
 .intro-smart .open-now h2{
     font-size: 33px;
-    width: 77%;
+    width: fit-content;
     border-bottom: 4px solid white;
     display: inline-block;
     text-align: left;
@@ -478,11 +479,13 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 20px;
 }
 .section-5 .girl-smile{
     width: 44%;
     margin: 0px 10px;
-    text-align: center;
+    text-align: right;
+    padding: 0px 60px;
     display: inline-block;
 }
 .section-5 .boy-smile{
@@ -492,7 +495,7 @@ body{
 }
 .section-5 img{
     margin: 10px 20px;
-    width: 255px;
+    width: 282px;
     height: auto;
 }
 .section-5 .boy-smile p{
@@ -587,6 +590,7 @@ body{
     }
     .intro-smart .open-now{
         transform: skewY(-5deg);
+        padding: 0px 25px;
     }
     .intro-smart .open-now-savings{
         display: inline-block;
@@ -598,13 +602,13 @@ body{
     }
     .intro-smart .open-now h2{
         margin: 0px 0px 30px 92px;
-        width: 57%;
     }
     .intro-smart .open-now a{
         margin: 10px 150px 0px 150px;
     }
     .section-5 .boy-smile{
         width: 52%;
+        padding: 0px 25px;
         position: relative;
         top: 115px;
     }
@@ -659,8 +663,11 @@ body{
         font-size: 80px;
     }
     .section-1 .pager{
-        height: 515px;
-        width: 20%;
+        height: 525px;
+        width: 23%;
+    }
+    .section-1 .pager p{
+        height: 220px;
     }
     .section-2 .pager{
         width: 20%;
@@ -705,6 +712,8 @@ body{
         position: relative;
         border-bottom: 4px solid rgba(30, 143, 255, 0.966);
         bottom: 60px;
+        overflow: hidden;
+        margin: 50px 20px 0px 20px;
         font-size: 18px;
     }
 }

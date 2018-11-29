@@ -200,11 +200,12 @@ body{
     color: white;
     text-align: left;
     margin: 54px 0px;
+    width: 47%;
     font-size: 40px;
 }
 .customer-satisfaction .mask-2 p{
     color: white;
-    width: 78%;
+    width: 100%;
     text-align: left;
     font-size: 24px;
     margin: 50px 0px;
@@ -764,6 +765,7 @@ body{
         position: relative;
         right: 4px;
         bottom: 75px;
+        width: 100%;
         font-size: 50px;
     }
     .customer-satisfaction .mask-2 p{

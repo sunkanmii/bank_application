@@ -9,6 +9,11 @@ body{
 .main-container{
     width: 100%;
 }
+
+/*
+    home page
+*/
+
 .header-1{
     width: 100%;
     overflow: hidden;
@@ -48,7 +53,7 @@ body{
     margin: 22px 0px;
     width: 100%;
     text-align: center;
-    padding-right: 15px;
+    padding-right: 45px;
 }
 .header-1 ul a{
     color: white;
@@ -79,7 +84,7 @@ body{
 .mask-1{
     width: 100%;
     background-color: rgba(19, 19, 19, 0.4);
-    padding: 80px 0px;
+    padding: 105px 0px;
 }
 .home-image .mask-1 h2{
     width: 100%;
@@ -88,6 +93,197 @@ body{
     font-size: 7vw;
     color: rgba(255, 255, 255);
 }
+.section{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+    margin: 40px 0px;
+}
+.paragraph{
+    margin: 25px;
+    padding: 113px 52px;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    overflow: hidden;
+    border: 0px solid rgba(30, 143, 255, 0.47);
+    border-radius: 10px;
+    border-bottom-left-radius: 196px;
+    box-shadow: 0px 2px 8px rgba(30, 143, 255, 0.47);
+    transition: all 400ms ease 150ms;
+}
+.paragraph:hover{
+    border: 1px solid rgba(30, 143, 255, 0.47);
+}
+.paragraph h2{
+    color: #1685f1;
+}
+.paragraph a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0px;
+    transition: all 300ms ease 0.1s;
+    background-color: #1681ed;
+    padding: 15px 25px;
+    border-radius: 6px;
+    border-top-right-radius: 28px;
+    box-shadow: 0px 1px 4px #1681ed;
+}
+.paragraph a:hover{
+    background-color: #3b9dff;
+}
+.section-1{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+    margin: 10px 0px 80px 0px;
+}
+.section-1 .pager{
+    margin: 30px 29px;
+    padding: 30px 10px;
+    overflow: hidden;
+    width: 80%;
+    height: 525px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0px 1px 4px #ccc;
+}
+.section-1 .pager h4{
+    color: rgb(22, 129, 237);
+    padding: 19px 20px;
+    margin: 0;
+}
+.section-1 .pager p{
+    padding: 19px 20px;
+    height: 200px;
+    margin: 0px;
+}
+.section-1 .pager a{
+    padding: 15px 17px;
+    margin-top: 35px;
+    display: inline-block;
+    position: relative;
+    top: 65px;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: -1px 1px 3px rgb(22, 129, 237);
+    border-top-left-radius: 20px;
+    background-color: rgb(22, 129, 237);
+    transition: 350ms all ease-in-out 100ms;
+}
+.section-1 .pager a:hover{
+    box-shadow: -1 1px 13px rgba(4, 138, 255, 0.911);
+    background-color: rgba(22, 129, 237, 0.8);
+}
+.customer-satisfaction{
+    width: 100%;
+    margin: 30px 0px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("34613678200_811646fa3f_o.jpg");
+}
+.customer-satisfaction .mask-2{
+    width: 100%;
+    background-color: rgba(39, 39, 39, 0.5);
+    padding: 150px 70px;
+}
+.customer-satisfaction .mask-2 h3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-align: left;
+    margin: 54px 0px;
+    font-size: 40px;
+}
+.customer-satisfaction .mask-2 p{
+    color: white;
+    width: 78%;
+    text-align: left;
+    font-size: 24px;
+    margin: 50px 0px;
+}
+.customer-satisfaction .mask-2 a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0px;
+    transition: all 500ms ease 0.1s;
+    background-color: rgb(11, 120, 230);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border-bottom-left-radius: 36px;
+    box-shadow: 0px 1px 4px rgba(13, 13, 143, 0.8);
+}
+.customer-satisfaction .mask-2 a:hover{
+    background-color: rgba(45, 45, 148, 0.8);
+    box-shadow: 0px 1px 9px rgba(29, 29, 134, 0.8);
+}
+.section-2{
+    display: inline-block;
+    margin: 20px 0px;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+.section-2 .pager{
+    display: inline-block;
+    margin: 50px 16px;
+    padding: 40px 20px;
+    overflow: hidden;
+    height: 540px;
+    text-align: center;
+    border-radius: 7px;
+    border: 1px solid rgb(61, 157, 254);
+    border-top-left-radius: 77px;
+    box-shadow: 0px 1px 4px #1685f1;
+    width: 80%;
+    transition: all 500ms ease-in-out 100ms;
+    background-color: white;
+}
+.section-2 .pager:hover{
+    box-shadow: 0px 1px 7px #cccccc;
+}
+.section-2 .pager img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.section-2 .pager h4{
+    color: rgb(36, 139, 245);
+}
+.section-2 .pager p{
+    height: 220px;
+    display: inline-block;
+    margin: 25px 17px;
+}
+.section-2 .pager a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 20px;
+    padding: 15px 20px;
+    background-color: #0c75e1;
+    border-radius: 5px;
+    margin: 0px;
+    font-size: 15px;
+    box-shadow: 0px 1px 3px #ccc;
+    border-top-left-radius: 25px;
+}
+.section-2 .pager a:hover{
+    box-shadow: 0px 1px 6px #ccc;
+    background-color: rgb(8, 102, 199);
+}
+/*
+    about-us
+*/
+
 .about-image{
     width: 100%;
     margin-bottom: 40px;
@@ -109,6 +305,107 @@ body{
     margin: 10px 0px;
     width: 100%;
 }
+.section-3{
+    width: 100%;
+    display: inline-block;
+    margin: 41px 0px 5px 0px;
+    padding: 10px 8px;
+    text-align: left;
+    line-height: 1.5em;
+    color: #696f73;
+}
+.section-3 p{
+    padding: 30px 0px;
+}
+.section-4{
+    margin: 5px 4px 25px 5px;
+    display: inline-block;
+    padding: 30px;
+    border: 1px solid;
+}
+.section-4 h3{
+    font-size: 30px;
+    font-weight: 100;
+    color: #2e343a;
+}
+.section-4 p{
+    position: relative;
+    right: 10px;
+    color: #424a52;
+    font-size: 50px;
+}
+.section-4 .my-span{
+    font-size: 15px;
+}
+
+/*
+    Create-account
+*/
+
+.create-account{
+    color: white;
+    background-color: rgb(161, 161, 161);
+    padding: 169px 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: inline-block;
+}
+.create-account h2{
+    font-size: 40px;
+}
+.create-account p{
+    font-size: 20px;
+    width: 90%;
+    margin: 60px 0px;
+}
+.open-account{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #f2f2f2;
+}
+.open-account form{
+    margin: 50px 0px;
+}
+.open-account label{
+    display: inline-block;
+    width: 100%;
+    margin: 18px 0px;
+    font-weight: 400;
+}
+.open-account input[type=text], input[type=email]{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 20px;
+}
+.open-account input[type=number]{
+    display: inline-block;
+    width: 60%; 
+    padding: 5px;
+}
+.open-account input[type=submit]{
+    display: inline-block;
+    margin: 20px 0px;
+    border-radius: 50px;
+    padding: 15px 45px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(0, 102, 204);
+    transition: 300ms all ease-in-out 150ms;
+}
+.open-account input[type=submit]:hover{
+    background-color: dodgerblue;
+    box-shadow: 0px 1px 4px #ccc; 
+}
+
+/*
+    Our-services
+*/
+
 .our-services{
     width: 100%;
     margin-bottom: 40px;
@@ -164,250 +461,6 @@ body{
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
-}
-.section-3{
-    width: 100%;
-    display: inline-block;
-    margin: 41px 0px 5px 0px;
-    padding: 10px 8px;
-    text-align: left;
-    line-height: 1.5em;
-    color: #696f73;
-}
-.section-3 p{
-    padding: 30px 0px;
-}
-.section-4{
-    margin: 5px 4px 25px 5px;
-    display: inline-block;
-    padding: 30px;
-    border: 1px solid;
-}
-.section-4 h3{
-    font-size: 30px;
-    font-weight: 100;
-    color: #2e343a;
-}
-.section-4 p{
-    position: relative;
-    right: 10px;
-    color: #424a52;
-    font-size: 50px;
-}
-.section-4 .my-span{
-    font-size: 15px;
-}
-.section{
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 40px;
-    margin: 40px 0px;
-}
-.paragraph{
-    margin: 25px;
-    padding: 80px 45px;
-    display: inline-block;
-    width: 80%;
-    text-align: center;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    box-shadow: darkgrey 0px 1px 8px;
-    border-radius: 18px;
-}
-.paragraph h2{
-    color: rgb(27, 81, 197);
-}
-.paragraph a{
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 0px;
-    transition: all 500ms ease 0.1s;
-    background-color: rgba(17, 17, 117, 0.8);
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 1px 4px rgba(13, 13, 143, 0.8);
-}
-.section-1{
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 40px;
-    margin: 10px 0px 80px 0px;
-}
-.section-1 .pager{
-    margin: 30px 29px;
-    padding: 30px 10px;
-    overflow: hidden;
-    width: 80%;
-    height: 525px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    background-color: aliceblue;
-    box-shadow: 0px 1px 4px #ccc;
-}
-.section-1 .pager h4{
-    color:rgba(21, 119, 203, 0.823);
-    padding: 19px 20px;
-    margin: 0;
-}
-.section-1 .pager p{
-    padding: 19px 20px;
-    height: 200px;
-    margin: 0px;
-}
-.section-1 .pager a{
-    padding: 15px 10px;
-    margin-top: 35px;
-    display: inline-block;
-    position: relative;
-    top: 65px;
-    color: white;
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: -1px 1px 3px rgba(4, 138, 255, 0.911);
-    background-color: rgba(21, 119, 203, 0.823);
-    transition: 350ms all ease-in-out 100ms;
-}
-.section-1 .pager a:hover{
-    box-shadow: -1 1px 13px rgba(4, 138, 255, 0.911);
-    background-color: rgba(38, 133, 216, 0.823);
-}
-.customer-satisfaction{
-    width: 100%;
-    margin: 30px 0px;
-    background-size: cover;
-    background-position: center;
-    background-image: url("34613678200_811646fa3f_o.jpg");
-}
-.customer-satisfaction .mask-2{
-    width: 100%;
-    background-color: rgba(39, 39, 39, 0.4);
-    padding: 150px 70px;
-}
-.customer-satisfaction .mask-2 h3{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    text-align: left;
-    font-size: 30px;
-}
-.customer-satisfaction .mask-2 p{
-    color: white;
-    width: 36%;
-    text-align: left;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-.customer-satisfaction .mask-2 a{
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    margin: 5px 0px;
-    transition: all 500ms ease 0.1s;
-    background-color: rgba(17, 17, 117, 0.8);
-    padding: 15px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0px 1px 4px rgba(13, 13, 143, 0.8);
-}
-.customer-satisfaction .mask-2 a:hover{
-    background-color: rgba(45, 45, 148, 0.8);
-    box-shadow: 0px 1px 9px rgba(29, 29, 134, 0.8);
-}
-.section-2{
-    display: inline-block;
-    margin: 20px 0px;
-    text-align: center;
-    width: 100%;
-    padding: 30px 0px;
-}
-.section-2 .pager{
-    display: inline-block;
-    margin: 50px 16px;
-    padding: 40px 45px;
-    overflow: hidden;
-    height: 440px;
-    text-align: inherit;
-    border: 1px solid #ccc;
-    box-shadow: 0px 1px 3px #cccccc;
-    width: 80%;
-    transition: all 500ms ease-in-out 100ms;
-    background-color: aliceblue;
-}
-.section-2 .pager:hover{
-    box-shadow: 0px 1px 7px #cccccc;
-}
-.section-2 .pager img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-}
-.section-2 .pager h4{
-    color: rgba(21, 119, 203, 0.823);
-}
-.create-account{
-    color: white;
-    background-color: rgb(161, 161, 161);
-    padding: 40px;
-    margin-bottom: 50px;
-    width: 100%;
-    display: inline-block;
-}
-.create-account h2{
-    font-size: 40px;
-}
-.create-account p{
-    font-size: 20px;
-    width: 90%;
-    margin: 60px 0px;
-}
-.open-account{
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 30px;
-    padding: 30px;
-    background-color: #f2f2f2;
-}
-.open-account form{
-    margin: 50px 0px;
-}
-.open-account label{
-    display: inline-block;
-    width: 100%;
-    margin: 18px 0px;
-    font-weight: 400;
-}
-.open-account input[type=text], input[type=email]{
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    display: inline-block;
-    padding: 20px;
-}
-.open-account input[type=number]{
-    display: inline-block;
-    width: 60%; 
-    padding: 5px;
-}
-.open-account input[type=submit]{
-    display: inline-block;
-    margin: 20px 0px;
-    border-radius: 50px;
-    padding: 15px 45px;
-    border: none;
-    color: white;
-    cursor: pointer;
-    background-color: rgb(0, 102, 204);
-    transition: 300ms all ease-in-out 150ms;
-}
-.open-account input[type=submit]:hover{
-    background-color: dodgerblue;
-    box-shadow: 0px 1px 4px #ccc; 
 }
 .intro-smart{
     background-image: linear-gradient(to bottom right, rgba(30, 143, 255, 0.349), rgba(30, 143, 255, 0.719), rgba(30, 143, 255, 0.966));
@@ -512,6 +565,11 @@ body{
     margin: 80px 0px;
     width: 100%;
 }
+
+/*
+    footer
+*/
+
 #main-footer{
     background-color: #333;
     color: white;
@@ -576,6 +634,12 @@ body{
     background-color: #125688;
 }
 @media only screen and (min-width: 600px){  
+    .header-1 li{
+        padding-right: 15px;
+    }
+    .customer-satisfaction .mask-2 p{
+        width: 40%;
+    }
     .create-account p{
         width: 80%;
     }
@@ -671,7 +735,7 @@ body{
     }
     .section-2 .pager{
         width: 20%;
-        min-height: 430px; 
+        height: 540px;
     }
     .create-account p{
         width: 45%;
@@ -699,11 +763,13 @@ body{
     .customer-satisfaction .mask-2 h3{
         position: relative;
         right: 4px;
-        bottom: 45px;
+        bottom: 75px;
         font-size: 50px;
     }
     .customer-satisfaction .mask-2 p{
         font-size: 34px;
+        position: relative;
+        bottom: 40px;
     }
     .section-5 .boy-smile p{
         width: 33%;

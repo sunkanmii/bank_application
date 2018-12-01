@@ -47,10 +47,21 @@ body{
 }
 .header-1 span > i{
     font-size: 20px;
-    color: white;
+    color: rgba(30, 143, 255, 0.419);
     display: inline-block;
-    margin: 4px;
+    margin: 17px;
+    cursor: pointer;
     float: right;
+    transition: all 200ms ease-in 100ms; 
+}
+.header-1 span > i:hover{
+    color: 0px 2px 4px rgba(30, 143, 255, 0.719);
+}
+.header-1 #closeButton i:hover{
+    color: #ff0000;
+}
+.header-1 #closeButton{
+    display: none;
 }
 .header-1 #myHeader{
     display: none;
@@ -725,6 +736,9 @@ body{
         position: sticky;
         top: 0px;
         z-index: 1;
+    }
+    .header-1 #myBars i{
+        display: none;
     }
     .header-1 ul{
         float: right;

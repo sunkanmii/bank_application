@@ -445,6 +445,9 @@ body{
     text-align: center;
     border: 1px solid #1a85f096;
 }
+.modal_animation{
+    animation: modalAnimation 0.8s ease;
+}
 #modal .container{
     padding: 18px;
 }
@@ -486,7 +489,6 @@ body{
     position: relative;
     top: 4px;
 }
-
 #modal img{
     width: 146px;
     height: auto;
@@ -535,6 +537,11 @@ body{
 }
 #modal #create_acc:hover, #modal input[type="submit"]:hover, #modal .forgot-password #modalCancelButton:hover{
     opacity: 0.8;
+}
+
+@keyframes modalAnimation {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
 }
 /*
     Our-services

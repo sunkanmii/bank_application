@@ -539,10 +539,16 @@ body{
     opacity: 0.8;
 }
 
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
 @keyframes modalAnimation {
     from {transform: scale(0)} 
     to {transform: scale(1)}
 }
+
 /*
     Our-services
 */

@@ -18,7 +18,7 @@
 				<li><a href ="about.html" title="About Us" class="active">About Us</a></li>
 				<li><a href ="#main-footer" title="Contact Us">Contact Us</a></li>
 				<li><a href ="Create-account.html" title="Create Account">Create Account</a></li>
-				<li><a href ="Login.html" title="Login">Login</a></li>
+				<li id="loginButton"><a href ="#modal-image" title="Login">Login</a></li>
 				<li><a href ="Our-services.html" title="Our Services">Our Services</a></li>
 			</ul>
 		</div>
@@ -79,27 +79,37 @@
 			</div>	
 		</section>
 	</div>
-	<!--
-	<div id ="modal">
-		<img src="" alt="login photo"/>
-		<form id="login_form" action="">
-			<label>Email: </label>
-			<br>
-			<input type="email" name="email address" placholder="Email Address">
-			<br>
-			
-			<label>Password: </label>
-			<input type="password" name="pwd">
-			<br>
+	<div id="modal_image">
+		<div id ="modal">
+			<span id="formCloseButton"><i class="fa fa-close"></i></span>
+			<div class="img-container">
+				<img src="Images\users.png" alt="login photo"/>
+			</div>
+			<div class="container">
+				<form id="login_form" action="">
+					<label>Email: </label>
+					<br>
+					<input type="email" name="email address" placholder="Email Address" required>
+					<br>
 
-			<input type="submit" value="Submit">
-			<br>
-		</form>	
-		<p><hr> or <hr/></p>
+					<label>Password: </label>
+					<input type="password" name="pwd" required>
+					<br>
 
-		<button id="" href="Create-account">Create an account</button>
+					<input type="submit" value="Login">
+					<br>
+				</form>
+
+				<p><hr> or <hr/></p>
+
+				<button id="Create-account.html" href="Create-account">Create an account</button>
+				<div class = "forgot-password">
+					<button id="cancelButton">Cancel</button>
+					<p>Forgot <a href="#">password</a></p>
+				</div>
+			</div>
+		</div>
 	</div>
-	-->
 	<script src="C:\Users\Sunkanmi\Documents\HTML, CSS and Javascript practice\my_Script.js"></script>
 </body>
 </html>

@@ -442,22 +442,28 @@ body{
     background-color: white;
     margin: 10% auto 0% auto;
     width: 80%;
+    text-align: center;
     border: 1px solid #1a85f096;
 }
 #modal .container{
     padding: 18px;
 }
+#modal label{
+    float: left;
+}
 #modal input[type=email], #modal input[type=password]{
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 15px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 40px;
 }
 #modal hr{
+    margin: 0px 13px;
+    border: 0.2pt solid;
     width: 30%;
-    margin: 0px 3px;
+    background-color: darkslategray;
     display: inline-block;
 }
 #modal #formCloseButton{
@@ -471,14 +477,21 @@ body{
 #modal #formCloseButton:hover{
     color: red;
 }
-#modal p{
+#modal .or_create{
     text-align: center;
 }
+#modal .or_paragraph{
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
 #modal img{
     width: 35%;
     height: auto;
     background-color: cornflowerblue;
-    border-radius: 135px;
+    border-radius: 200px;
 }
 #modal .img-container{
     text-align: center;
@@ -486,7 +499,43 @@ body{
     width: 100%;
     margin: 0px 0px 12px 0;
 }
-
+#modal #create_acc, #modal input[type="submit"]{
+    padding: 16px 0px;
+    width: 80%;
+    font-size: 15px;
+    color: white;
+    margin: 10px 0px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in 100ms;
+}
+#modal .forgot-password{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 18px;
+    background-color: #f1f1f1;
+}
+#modal .forgot-password #cancelButton{
+    padding: 16px 0px;
+    width: 30%;
+    color: white;
+    margin: 10px 0px;
+    background-color: #f50832;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in 100ms;
+}
+#modal .forgot-password p{
+    width: 70%;
+    padding-top: 10px;
+    text-align: right;
+}
+#modal #create_acc:hover, #modal input[type="submit"]:hover, #modal .forgot-password #cancelButton:hover{
+    opacity: 0.8;
+}
 /*
     Our-services
 */

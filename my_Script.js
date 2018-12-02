@@ -3,6 +3,7 @@ let bars = document.getElementById('myBars');
 let close_button = document.getElementById('closeButton');
 let login_button = document.getElementById('loginButton');
 let form_close_button = document.getElementById('formCloseButton');
+let modal_cancel_button = document.getElementById('modalCancelButton');
 
 bars.addEventListener('click', function(){
     my_Header.style.display = 'inline-block';
@@ -21,5 +22,9 @@ login_button.addEventListener('click', function(){
 });
 
 form_close_button.addEventListener('click', function(){
+    modal_image.style.display = 'none';
+});
+
+modal_cancel_button.addEventListener('click', function(){
     modal_image.style.display = 'none';
 });

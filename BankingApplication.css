@@ -238,14 +238,14 @@ body{
     display: inline-block;
     margin: 5px 0px;
     transition: all 500ms ease 0.1s;
-    background-color: rgb(23, 118, 215);
+    background-color: rgb(26, 122, 218);
     padding: 15px 30px;
     border-radius: 5px;
     border-bottom-left-radius: 36px;
     box-shadow: 0px 1px 4px rgba(13, 13, 143, 0.8);
 }
 .customer-satisfaction .mask-2 a:hover{
-    background-color: rgba(45, 45, 148, 0.8);
+    background-color: rgb(53, 144, 235);
     box-shadow: 0px 1px 9px rgba(29, 29, 134, 0.8);
 }
 .section-2{
@@ -454,7 +454,7 @@ body{
 #modal input[type=email], #modal input[type=password]{
     width: 100%;
     padding: 12px 20px;
-    margin: 15px 0;
+    margin: 9px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 40px;
@@ -488,7 +488,7 @@ body{
 }
 
 #modal img{
-    width: 35%;
+    width: 146px;
     height: auto;
     background-color: cornflowerblue;
     border-radius: 200px;
@@ -504,7 +504,7 @@ body{
     width: 80%;
     font-size: 15px;
     color: white;
-    margin: 10px 0px;
+    margin: 5px 0px;
     background-color: cornflowerblue;
     border-radius: 50px;
     border: none;
@@ -515,10 +515,10 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 18px;
+    padding: 7px 18px;
     background-color: #f1f1f1;
 }
-#modal .forgot-password #cancelButton{
+#modal .forgot-password #modalCancelButton{
     padding: 16px 0px;
     width: 30%;
     color: white;
@@ -533,7 +533,7 @@ body{
     padding-top: 10px;
     text-align: right;
 }
-#modal #create_acc:hover, #modal input[type="submit"]:hover, #modal .forgot-password #cancelButton:hover{
+#modal #create_acc:hover, #modal input[type="submit"]:hover, #modal .forgot-password #modalCancelButton:hover{
     opacity: 0.8;
 }
 /*
@@ -666,14 +666,10 @@ body{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 20px 40px;
 }
 .section-5 .girl-smile{
-    width: 44%;
-    margin: 0px 10px;
-    text-align: right;
-    padding: 0px 60px;
-    display: inline-block;
+    width: 100%;
 }
 .section-5 .boy-smile{
     display: inline-block;
@@ -682,7 +678,7 @@ body{
 }
 .section-5 img{
     margin: 10px 20px;
-    width: 282px;
+    width: 222px;
     height: auto;
 }
 .section-5 .boy-smile p{
@@ -698,6 +694,17 @@ body{
     display: inline-block;
     margin: 80px 0px;
     width: 100%;
+}
+.section-6 h3{
+    color: #1E90FF;
+    font-size: 25px;
+}
+.section-6 p{
+    padding: 0px 15px;
+}
+.section-6 hr{
+    width: 50px;
+    border: 0.7pt solid #1E90FF;
 }
 
 /*
@@ -786,6 +793,32 @@ body{
     }
     .create-account p{
         width: 80%;
+    }    
+    /*
+        Login page
+    */
+    #modal{
+        margin: 1% auto;
+        width: 65%;
+    }
+    #modal .container{
+        padding: 5px 18px;
+    }
+    #modal img {
+        width: 210px;
+    }
+    #modal hr{
+        width: 30%;
+    }
+    #modal input[type="email"], #modal input[type="password"]{
+        margin: 10px 0;        
+    }
+    #modal #create_acc, #modal input[type="submit"]{
+        width: 80%;
+        margin: 7px 0px;
+    }
+    #modal .forgot-password{
+        padding: 5px 18px;
     }
     .about-services .reasons-to-save{
         width: 50%;
@@ -813,6 +846,15 @@ body{
     }
     .intro-smart .open-now a{
         margin: 10px 150px 0px 150px;
+    }
+    .section-5 img{
+        width: 282px;
+    }
+    .section-5 .girl-smile {
+        width: 45%;
+        margin: 0px 10px;
+        text-align: right;
+        padding: 0px 60px;
     }
     .section-5 .boy-smile{
         width: 52%;
@@ -897,6 +939,12 @@ body{
         left: 20px;
         bottom: 20px;
         width: 30%;
+    }
+    #modal{
+        width: 40%;
+    }
+    #modal #create_acc, #modal input[type="submit"]{
+        margin: 5px 0px
     }
     .our-services .mask-2 h2{
         width: 45%;

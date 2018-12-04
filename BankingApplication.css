@@ -246,7 +246,7 @@ body{
 }
 .customer-satisfaction .mask-2 a:hover{
     background-color: rgb(53, 144, 235);
-    box-shadow: 0px 1px 9px rgba(29, 29, 134, 0.8);
+    box-shadow: 0px 1px 5px rgba(29, 29, 134, 0.8);
 }
 .section-2{
     display: inline-block;
@@ -446,7 +446,7 @@ body{
     border: 1px solid #1a85f096;
 }
 .modal_animation{
-    animation: modalAnimation 0.8s ease;
+    animation: modalAnimation 0.46s ease;
 }
 #modal .container{
     padding: 18px;
@@ -458,9 +458,15 @@ body{
     width: 100%;
     padding: 12px 20px;
     margin: 9px 0;
+    outline: none;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 40px;
+    transition: all 180ms ease-in 30ms;
+}
+#modal input[type=email]:focus, #modal input[type=password]:focus{
+    border: 1px solid rgb(134, 169, 233);
+    box-shadow: 0px 1px 3px #ebe9e9;
 }
 #modal hr{
     margin: 0px 13px;
@@ -475,7 +481,7 @@ body{
     font-size: 30px;
     cursor: pointer;
     color: #42444696;
-    transition: all 200ms ease-in 100ms;
+    transition: all 180ms ease-in 60ms;
 }
 #modal #formCloseButton:hover{
     color: red;
@@ -509,9 +515,12 @@ body{
     margin: 5px 0px;
     background-color: cornflowerblue;
     border-radius: 50px;
+    outline: none;
     border: none;
     cursor: pointer;
-    transition: all 200ms ease-in 100ms;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 180ms ease-in 60ms;
 }
 #modal .forgot-password{
     width: 100%;
@@ -528,7 +537,7 @@ body{
     background-color: #f50832;
     border: none;
     cursor: pointer;
-    transition: all 200ms ease-in 100ms;
+    transition: all 180ms ease-in 60ms;
 }
 #modal .forgot-password p{
     width: 70%;

@@ -726,7 +726,8 @@ body{
 }
 .section-6 hr{
     width: 50px;
-    border: 0.7pt solid #1E90FF;
+    background-color: dodgerblue;
+    border: 0.65pt solid dodgerblue;
 }
 
 /*
